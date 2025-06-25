@@ -4,6 +4,9 @@ You are not allowed to use the DESCRIBE or EXPLAIN statements
 The name of the file should be task_4.sql
 All SQL keywords should be in uppercase8*/
 
+
+
+
 SELECT 
     COLUMN_NAME,
     COLUMN_TYPE,
@@ -15,6 +18,6 @@ FROM
     INFORMATION_SCHEMA.COLUMNS
 WHERE 
     TABLE_SCHEMA = 'alx_book_store'
-    AND TABLE_NAME = 'Books';
+    AND TABLE_NAME = 'books';
 
 
