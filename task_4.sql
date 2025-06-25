@@ -5,8 +5,16 @@ The name of the file should be task_4.sql
 All SQL keywords should be in uppercase8*/
 
 
-SELECT * 
-FROM alx_book_store.books;
+SELECT 
+    COLUMN_NAME,
+    COLUMN_TYPE,
+    IS_NULLABLE,
+    COLUMN_KEY,
+    COLUMN_DEFAULT,
+    EXTRA
+FROM 
+   alx_book_store.books;
+
 
 
 
